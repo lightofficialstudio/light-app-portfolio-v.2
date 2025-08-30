@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01EA5DDDF2BFC9037C6905FF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		05069066535F4886A9A47ECE /* Prompt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF311A2E22BC4F52AB8CA03D /* Prompt-SemiBold.ttf */; };
+		0C80B921A6F3F58F76C31292 /* libPods-awesomeapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-awesomeapp.a */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2224B332B2304FD9B67E88BD /* Prompt-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73612D1F9E69473B9793423C /* Prompt-Light.ttf */; };
+		2B3DDF4625E24BDD84336141 /* Prompt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3338947C86744803B7F28E96 /* Prompt-Italic.ttf */; };
+		3FE0973C401843E3A784098F /* Prompt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C168A0611D4141ED97DE5220 /* Prompt-Black.ttf */; };
+		411D71AD293243D0B8E5BEAB /* Prompt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4072A47605B4C78B2C074F4 /* Prompt-ExtraBold.ttf */; };
+		4C399AB818034034A66BC3AF /* LINESeedSansTH_XBd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6FD2AAB21304CD195B1022D /* LINESeedSansTH_XBd.ttf */; };
+		4C4C37863A6D4652A14A6CFB /* Prompt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 755E5F0673464A69A18CBCB1 /* Prompt-SemiBoldItalic.ttf */; };
+		51329E28351C4796BE564438 /* Prompt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D44849BEFCDE4958826C32CB /* Prompt-MediumItalic.ttf */; };
+		53E734AC425E4516B6BD82C9 /* Hanuman-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B067F8C80584E8282347E1C /* Hanuman-Bold.ttf */; };
+		6ADCC3EDB7954F95AC8B0AEF /* Prompt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7E9FF34F3A041DA9B9401BE /* Prompt-Regular.ttf */; };
+		6D8E4D40E7B24E118D3D22CC /* Prompt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F8E674B6D6D4BA8B94DDC36 /* Prompt-BoldItalic.ttf */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		7D2BCCA86D174B6089A1B518 /* Prompt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 586C2EE65D7D4705904AFD86 /* Prompt-Bold.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8594EDA64EC74D9095CC5870 /* LINESeedSansTH_Rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 455EB5BA11C54D45929C2F12 /* LINESeedSansTH_Rg.ttf */; };
+		914BF0ECA55140B8B41491E2 /* LINESeedSansTH_He.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40F90CAB15A246E8A18F223F /* LINESeedSansTH_He.ttf */; };
+		985BCEA49C8040D5AA110D85 /* LINESeedSansTH_Bd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFA5D17635A34C579C5F3E61 /* LINESeedSansTH_Bd.ttf */; };
+		988CF655246F4AD0A2BB9FF0 /* Hanuman-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B978B1E900E44E39849006C5 /* Hanuman-Light.ttf */; };
+		9CDC466350BA4A339D994B64 /* Hanuman-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ECF852A9DCE4ACD8BBC16BB /* Hanuman-Black.ttf */; };
+		A0AA4E557C8C4111AEC6A927 /* Prompt-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 028E25A82416441D89387E39 /* Prompt-LightItalic.ttf */; };
+		A848A933F7F54472B28AC566 /* Hanuman-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC57CEFA4D904ED8A25C0B43 /* Hanuman-Regular.ttf */; };
+		AF26B81CACAA46178D39ACB7 /* Prompt-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8615405149C241048AC30EED /* Prompt-Thin.ttf */; };
+		B4A30F3B4D044B09A0039F4F /* LINESeedSansTH_Th.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAF554EF3BA24F2A86816984 /* LINESeedSansTH_Th.ttf */; };
+		C48EE958A2854AB3B8C563B8 /* Prompt-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0361D04FAD9E493BAAF9C211 /* Prompt-ExtraLight.ttf */; };
+		CDE5225E37F343DFBC49F268 /* Hanuman-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C25F4D6C6EA4D12B2C8E15F /* Hanuman-Thin.ttf */; };
+		D1A61149AD8B4A5383F40F91 /* Prompt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 541FA34F6CDE4135AD4D9BA7 /* Prompt-ExtraBoldItalic.ttf */; };
+		D558126901F04DA8B7EBAA95 /* Prompt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A00E79E40564D069DEEF27E /* Prompt-BlackItalic.ttf */; };
+		DA87A6B2B7F94B11B804B843 /* Prompt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEA55086072F48819F9E035C /* Prompt-Medium.ttf */; };
+		F28E57E0F4B04C06A7FEEE89 /* Prompt-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49D757B8CE674AD6888DF3E5 /* Prompt-ExtraLightItalic.ttf */; };
+		F66E1B54EEE04E319B845E77 /* Prompt-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE0C31CFF1574C9198B8F016 /* Prompt-ThinItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		028E25A82416441D89387E39 /* Prompt-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-LightItalic.ttf"; path = "../src/assets/fonts/Prompt-LightItalic.ttf"; sourceTree = "<group>"; };
+		0361D04FAD9E493BAAF9C211 /* Prompt-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-ExtraLight.ttf"; path = "../src/assets/fonts/Prompt-ExtraLight.ttf"; sourceTree = "<group>"; };
+		0ECF852A9DCE4ACD8BBC16BB /* Hanuman-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Black.ttf"; path = "../src/assets/fonts/Hanuman-Black.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* awesomeapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = awesomeapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = awesomeapp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = awesomeapp/Info.plist; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = awesomeapp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3338947C86744803B7F28E96 /* Prompt-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-Italic.ttf"; path = "../src/assets/fonts/Prompt-Italic.ttf"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-awesomeapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-awesomeapp.debug.xcconfig"; path = "Target Support Files/Pods-awesomeapp/Pods-awesomeapp.debug.xcconfig"; sourceTree = "<group>"; };
+		40F90CAB15A246E8A18F223F /* LINESeedSansTH_He.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = LINESeedSansTH_He.ttf; path = ../src/assets/fonts/LINESeedSansTH_He.ttf; sourceTree = "<group>"; };
+		455EB5BA11C54D45929C2F12 /* LINESeedSansTH_Rg.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = LINESeedSansTH_Rg.ttf; path = ../src/assets/fonts/LINESeedSansTH_Rg.ttf; sourceTree = "<group>"; };
+		49D757B8CE674AD6888DF3E5 /* Prompt-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Prompt-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		541FA34F6CDE4135AD4D9BA7 /* Prompt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Prompt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-awesomeapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-awesomeapp.release.xcconfig"; path = "Target Support Files/Pods-awesomeapp/Pods-awesomeapp.release.xcconfig"; sourceTree = "<group>"; };
+		586C2EE65D7D4705904AFD86 /* Prompt-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-Bold.ttf"; path = "../src/assets/fonts/Prompt-Bold.ttf"; sourceTree = "<group>"; };
+		5B067F8C80584E8282347E1C /* Hanuman-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Bold.ttf"; path = "../src/assets/fonts/Hanuman-Bold.ttf"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-awesomeapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-awesomeapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73612D1F9E69473B9793423C /* Prompt-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-Light.ttf"; path = "../src/assets/fonts/Prompt-Light.ttf"; sourceTree = "<group>"; };
+		755E5F0673464A69A18CBCB1 /* Prompt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Prompt-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = awesomeapp/AppDelegate.swift; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = awesomeapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8615405149C241048AC30EED /* Prompt-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-Thin.ttf"; path = "../src/assets/fonts/Prompt-Thin.ttf"; sourceTree = "<group>"; };
+		8C25F4D6C6EA4D12B2C8E15F /* Hanuman-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Thin.ttf"; path = "../src/assets/fonts/Hanuman-Thin.ttf"; sourceTree = "<group>"; };
+		8F8E674B6D6D4BA8B94DDC36 /* Prompt-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-BoldItalic.ttf"; path = "../src/assets/fonts/Prompt-BoldItalic.ttf"; sourceTree = "<group>"; };
+		9A00E79E40564D069DEEF27E /* Prompt-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-BlackItalic.ttf"; path = "../src/assets/fonts/Prompt-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A4072A47605B4C78B2C074F4 /* Prompt-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-ExtraBold.ttf"; path = "../src/assets/fonts/Prompt-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B7E9FF34F3A041DA9B9401BE /* Prompt-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-Regular.ttf"; path = "../src/assets/fonts/Prompt-Regular.ttf"; sourceTree = "<group>"; };
+		B978B1E900E44E39849006C5 /* Hanuman-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Light.ttf"; path = "../src/assets/fonts/Hanuman-Light.ttf"; sourceTree = "<group>"; };
+		BAF554EF3BA24F2A86816984 /* LINESeedSansTH_Th.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = LINESeedSansTH_Th.ttf; path = ../src/assets/fonts/LINESeedSansTH_Th.ttf; sourceTree = "<group>"; };
+		BEA55086072F48819F9E035C /* Prompt-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-Medium.ttf"; path = "../src/assets/fonts/Prompt-Medium.ttf"; sourceTree = "<group>"; };
+		C168A0611D4141ED97DE5220 /* Prompt-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-Black.ttf"; path = "../src/assets/fonts/Prompt-Black.ttf"; sourceTree = "<group>"; };
+		C6FD2AAB21304CD195B1022D /* LINESeedSansTH_XBd.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = LINESeedSansTH_XBd.ttf; path = ../src/assets/fonts/LINESeedSansTH_XBd.ttf; sourceTree = "<group>"; };
+		CF311A2E22BC4F52AB8CA03D /* Prompt-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-SemiBold.ttf"; path = "../src/assets/fonts/Prompt-SemiBold.ttf"; sourceTree = "<group>"; };
+		D44849BEFCDE4958826C32CB /* Prompt-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-MediumItalic.ttf"; path = "../src/assets/fonts/Prompt-MediumItalic.ttf"; sourceTree = "<group>"; };
+		DC57CEFA4D904ED8A25C0B43 /* Hanuman-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Regular.ttf"; path = "../src/assets/fonts/Hanuman-Regular.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EE0C31CFF1574C9198B8F016 /* Prompt-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-ThinItalic.ttf"; path = "../src/assets/fonts/Prompt-ThinItalic.ttf"; sourceTree = "<group>"; };
+		EFA5D17635A34C579C5F3E61 /* LINESeedSansTH_Bd.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = LINESeedSansTH_Bd.ttf; path = ../src/assets/fonts/LINESeedSansTH_Bd.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-awesomeapp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* awesomeapp */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				761780EC2CA45674006654EE /* AppDelegate.swift */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+			);
+			name = awesomeapp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-awesomeapp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* awesomeapp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				B311B4D8A0A042FB91F93C4F /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* awesomeapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B311B4D8A0A042FB91F93C4F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0ECF852A9DCE4ACD8BBC16BB /* Hanuman-Black.ttf */,
+				5B067F8C80584E8282347E1C /* Hanuman-Bold.ttf */,
+				B978B1E900E44E39849006C5 /* Hanuman-Light.ttf */,
+				DC57CEFA4D904ED8A25C0B43 /* Hanuman-Regular.ttf */,
+				8C25F4D6C6EA4D12B2C8E15F /* Hanuman-Thin.ttf */,
+				EFA5D17635A34C579C5F3E61 /* LINESeedSansTH_Bd.ttf */,
+				40F90CAB15A246E8A18F223F /* LINESeedSansTH_He.ttf */,
+				455EB5BA11C54D45929C2F12 /* LINESeedSansTH_Rg.ttf */,
+				BAF554EF3BA24F2A86816984 /* LINESeedSansTH_Th.ttf */,
+				C6FD2AAB21304CD195B1022D /* LINESeedSansTH_XBd.ttf */,
+				C168A0611D4141ED97DE5220 /* Prompt-Black.ttf */,
+				9A00E79E40564D069DEEF27E /* Prompt-BlackItalic.ttf */,
+				586C2EE65D7D4705904AFD86 /* Prompt-Bold.ttf */,
+				8F8E674B6D6D4BA8B94DDC36 /* Prompt-BoldItalic.ttf */,
+				A4072A47605B4C78B2C074F4 /* Prompt-ExtraBold.ttf */,
+				541FA34F6CDE4135AD4D9BA7 /* Prompt-ExtraBoldItalic.ttf */,
+				0361D04FAD9E493BAAF9C211 /* Prompt-ExtraLight.ttf */,
+				49D757B8CE674AD6888DF3E5 /* Prompt-ExtraLightItalic.ttf */,
+				3338947C86744803B7F28E96 /* Prompt-Italic.ttf */,
+				73612D1F9E69473B9793423C /* Prompt-Light.ttf */,
+				028E25A82416441D89387E39 /* Prompt-LightItalic.ttf */,
+				BEA55086072F48819F9E035C /* Prompt-Medium.ttf */,
+				D44849BEFCDE4958826C32CB /* Prompt-MediumItalic.ttf */,
+				B7E9FF34F3A041DA9B9401BE /* Prompt-Regular.ttf */,
+				CF311A2E22BC4F52AB8CA03D /* Prompt-SemiBold.ttf */,
+				755E5F0673464A69A18CBCB1 /* Prompt-SemiBoldItalic.ttf */,
+				8615405149C241048AC30EED /* Prompt-Thin.ttf */,
+				EE0C31CFF1574C9198B8F016 /* Prompt-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-awesomeapp.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-awesomeapp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* awesomeapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "awesomeapp" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = awesomeapp;
+			productName = awesomeapp;
+			productReference = 13B07F961A680F5B00A75B9A /* awesomeapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "awesomeapp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* awesomeapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				01EA5DDDF2BFC9037C6905FF /* PrivacyInfo.xcprivacy in Resources */,
+				9CDC466350BA4A339D994B64 /* Hanuman-Black.ttf in Resources */,
+				53E734AC425E4516B6BD82C9 /* Hanuman-Bold.ttf in Resources */,
+				988CF655246F4AD0A2BB9FF0 /* Hanuman-Light.ttf in Resources */,
+				A848A933F7F54472B28AC566 /* Hanuman-Regular.ttf in Resources */,
+				CDE5225E37F343DFBC49F268 /* Hanuman-Thin.ttf in Resources */,
+				985BCEA49C8040D5AA110D85 /* LINESeedSansTH_Bd.ttf in Resources */,
+				914BF0ECA55140B8B41491E2 /* LINESeedSansTH_He.ttf in Resources */,
+				8594EDA64EC74D9095CC5870 /* LINESeedSansTH_Rg.ttf in Resources */,
+				B4A30F3B4D044B09A0039F4F /* LINESeedSansTH_Th.ttf in Resources */,
+				4C399AB818034034A66BC3AF /* LINESeedSansTH_XBd.ttf in Resources */,
+				3FE0973C401843E3A784098F /* Prompt-Black.ttf in Resources */,
+				D558126901F04DA8B7EBAA95 /* Prompt-BlackItalic.ttf in Resources */,
+				7D2BCCA86D174B6089A1B518 /* Prompt-Bold.ttf in Resources */,
+				6D8E4D40E7B24E118D3D22CC /* Prompt-BoldItalic.ttf in Resources */,
+				411D71AD293243D0B8E5BEAB /* Prompt-ExtraBold.ttf in Resources */,
+				D1A61149AD8B4A5383F40F91 /* Prompt-ExtraBoldItalic.ttf in Resources */,
+				C48EE958A2854AB3B8C563B8 /* Prompt-ExtraLight.ttf in Resources */,
+				F28E57E0F4B04C06A7FEEE89 /* Prompt-ExtraLightItalic.ttf in Resources */,
+				2B3DDF4625E24BDD84336141 /* Prompt-Italic.ttf in Resources */,
+				2224B332B2304FD9B67E88BD /* Prompt-Light.ttf in Resources */,
+				A0AA4E557C8C4111AEC6A927 /* Prompt-LightItalic.ttf in Resources */,
+				DA87A6B2B7F94B11B804B843 /* Prompt-Medium.ttf in Resources */,
+				51329E28351C4796BE564438 /* Prompt-MediumItalic.ttf in Resources */,
+				6ADCC3EDB7954F95AC8B0AEF /* Prompt-Regular.ttf in Resources */,
+				05069066535F4886A9A47ECE /* Prompt-SemiBold.ttf in Resources */,
+				4C4C37863A6D4652A14A6CFB /* Prompt-SemiBoldItalic.ttf in Resources */,
+				AF26B81CACAA46178D39ACB7 /* Prompt-Thin.ttf in Resources */,
+				F66E1B54EEE04E319B845E77 /* Prompt-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-awesomeapp/Pods-awesomeapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-awesomeapp/Pods-awesomeapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-awesomeapp/Pods-awesomeapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-awesomeapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-awesomeapp/Pods-awesomeapp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-awesomeapp/Pods-awesomeapp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-awesomeapp/Pods-awesomeapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-awesomeapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = awesomeapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.light.awesomeapp;
+				PRODUCT_NAME = awesomeapp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-awesomeapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = awesomeapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.light.awesomeapp;
+				PRODUCT_NAME = awesomeapp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = S5PNM3H9CQ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = S5PNM3H9CQ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "awesomeapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "awesomeapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
